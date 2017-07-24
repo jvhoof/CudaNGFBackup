@@ -75,7 +75,7 @@ urlencode_grouped_case () {
   echo
   echo "-------------------------------------------------------------------------" 
   echo " Creating the backup files"
-  if [ -d /opt/phion/config/configtree/ ];
+  if [ -d /opt/phion/config/configroot/ ];
   then
     cd /opt/phion/config/configroot/
     /opt/phion/bin/phionar cdl "$LOGDIR/$FILENAME" *
